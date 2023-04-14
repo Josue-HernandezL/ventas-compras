@@ -1,0 +1,66 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav {
+    height: 50px;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+  
+  li {
+    flex-grow: 1;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+
+h1 {
+margin: 20px 0;
+}
+
+form {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+input {
+    margin: 20px 20px;
+}
+/* 
+.Gastos-Ventas {
+    display: none;
+} */
+
+#divAlerta {
+  position: absolute;
+  height: auto;
+  width: auto;
+  top: 50px;
+
+}
+.textAlert {
+  margin: 20px;
+}
